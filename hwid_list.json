@@ -1,12 +1,39 @@
 {
+  "updated_at": "2023-12-22",
+  "version": "1.0.0",
   "authorized_users": [
+    {
+      "name": "User1",
+      "hwid": "a1b2c3d4",
+      "steamid": "76561198012345678",
+      "expiry": 1703270400,
+      "secret_key": "user1_secret",
+      "message": "Bem-vindo de volta!",
+      "encrypted": true
+    },
+    {
+      "name": "User2",
+      "hwid": "e5f6g7h8",
+      "steamid": "76561198087654321",
+      "expiry": 1704480000,
+      "secret_key": "user2_secret",
+      "message": "VIP ativo"
+    },
     {
       "name": "skeetless",
       "hwid": "0f11755d",
       "steamid": "76561199784821822",
+      "expiry": 1735689600,
+      "secret_key": "skeetless_key",
       "message": "Bem-vindo ao Flux Resolver!",
-      "expiry": 1725484800
+      "encrypted": false
     }
   ],
-  "banned_users": []
+  "banned_users": [
+    {
+      "hwid": "i9j0k1l2",
+      "reason": "Compartilhamento de conta",
+      "banned_at": 1671638400
+    }
+  ]
 }
